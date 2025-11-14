@@ -1,0 +1,19 @@
+# requirements.txt
+
+# Core ML/CV
+insightface
+onnxruntime 
+opencv-python
+numpy
+Pillow
+
+# Database
+chromadb
+
+# MCP / API Server
+fastapi
+uvicorn[standard]
+
+# Utilities
+loguru 
+cryptography

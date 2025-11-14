@@ -1,0 +1,23 @@
+{
+  "database": {
+    "persist_directory": "application_data/database/chroma_db",
+    "collection_name": "facial_recognition_users"
+  },
+  "storage": {
+    "image_storage_path": "application_data/images/profiles"
+  },
+  "logging": {
+    "log_file": "application_data/logs/application.log",
+    "log_level": "INFO"
+  },
+  "recognition": {
+    "threshold": 0.6 
+  },
+  "registration": {
+    "capture_count": 3
+  },
+  "insightface": {
+    "model_name": "buffalo_l",
+    "use_gpu": false
+  }
+}
